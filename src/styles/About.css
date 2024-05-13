@@ -1,0 +1,44 @@
+.grid-container{
+    display: grid;
+    margin: auto;
+    padding: 2rem;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+
+.grid-item{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.difference-header{
+    text-align: center;
+    margin-top: 2rem;
+    color: #866868;
+}
+
+.logo-0{
+    background-image: url("../assets/tick.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: contain;
+    filter: invert(43%) sepia(4%) saturate(2009%) hue-rotate(314deg) brightness(100%) contrast(96%);
+    height: 2rem;
+    width: 2rem;
+    margin: auto;
+}
+
+.logo-2{
+    background-image: url("../assets/wrench.svg");
+}
+
+.logo-3{
+    background-image: url("../assets/badge.svg");
+}

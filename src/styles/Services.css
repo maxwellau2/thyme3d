@@ -1,0 +1,60 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apply-brown{
+    color: #866868;
+}
+
+.centre-text{
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.image{
+    display: block;
+    width: 70%;
+    margin: auto;
+    align-content: center;
+}
+
+.card-text{
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.card-header{
+    margin-top: 0.4rem;
+    font-size: 1.3rem;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    justify-content: center;
+    justify-self: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.border{
+    border-radius: 2rem;
+    width: 80%;
+    background-color: #DBC597;
+    padding: 1rem;
+    margin: auto;
+}
+
+.materials{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    font-weight: 600;
+}
