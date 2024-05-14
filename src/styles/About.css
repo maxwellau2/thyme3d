@@ -1,7 +1,7 @@
 .grid-container{
     display: grid;
     margin: auto;
-    padding: 20%;
+    padding: 5%;
     grid-template-columns: 33% 33% 33%;
 }
 
@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     justify-self: center;
+    margin: auto;
 }
 
 .grid-item{
