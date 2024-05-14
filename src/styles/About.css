@@ -4,6 +4,7 @@
     justify-content: center;
     justify-self: center;
     margin: auto;
+    margin-top: 2px;
 }
 .grid-container{
     display: grid;
@@ -12,13 +13,14 @@
 .grid-item{
     text-align: center;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 3px;
 }
 
 .difference-header{
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 0px;
     color: #866868;
 }
 
