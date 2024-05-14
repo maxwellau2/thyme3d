@@ -17,7 +17,7 @@
 
 .image{
     display: block;
-    width: 70%;
+    width: 90%;
     margin: auto;
     align-content: center;
 }
@@ -34,15 +34,22 @@
 }
 
 .card-grid{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: auto auto; */
+    width: 90%;
+    gap: 1%;
     justify-content: center;
     justify-self: center;
     margin-left: 10%;
     margin-right: 10%;
 }
 
+@media only screen and (min-width: 1024px) {
+    .card-grid {
+      flex-direction: row;
+    }
+  }
 
 .border{
     border-radius: 2rem;
@@ -50,6 +57,7 @@
     background-color: #DBC597;
     padding: 1rem;
     margin: auto;
+    margin-top: 2%;
 }
 
 .materials{
