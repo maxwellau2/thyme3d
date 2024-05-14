@@ -5,7 +5,10 @@ const Navbar = () => {
     <div>
       <div className='navbar-bg'>
         <div className='logo'></div>
-        <button className='button'>Projects</button>
+        <button className='button' onClick={()=>{
+          let element = document.getElementById("carousel");
+          element.scrollIntoView({behavior:'smooth'});
+        }}>Projects</button>
         <button className='button' onClick={()=>{
           let element = document.getElementById("about-section");
           element.scrollIntoView({behavior:'smooth'});
