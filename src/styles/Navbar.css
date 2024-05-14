@@ -14,14 +14,15 @@
     align-items: center;
     height: 2.8rem;
     padding: 1.2rem;
+    position:relative;
 }
 .logo {
   margin-right: auto; /* Pushes the logo to the left */
   background-image: url("../assets/logo.png");
   background-repeat: no-repeat, repeat;
   background-size: contain;
-  height: 200%;
-  width: 100%;
+  height: 1000%;
+  width: 300%;
 }
 
 .button{
@@ -35,4 +36,10 @@
 .button:hover{
   background-color: #866868;
   color: beige;
+}
+
+.make-sticky{
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }

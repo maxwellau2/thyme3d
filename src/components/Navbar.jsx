@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/Navbar.css"
 const Navbar = () => {
   return (
-    <div>
+    <div className='make-sticky'>
       <div className='navbar-bg'>
         <div className='logo'></div>
         <button className='button' onClick={()=>{
